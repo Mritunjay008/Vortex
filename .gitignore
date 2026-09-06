@@ -1,0 +1,32 @@
+## Build and Output Folders
+bin/
+obj/
+publish/
+out/
+
+## Visual Studio & VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ide/
+
+## User-specific and environment configuration
+appsettings.*.local.json
+appsettings.local.json
+*.local.json
+
+## Log and Crash Dump Files
+*.log
+*.dump
+*.dmp
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## OS generated files
+.DS_Store
+Thumbs.db

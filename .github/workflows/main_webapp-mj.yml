@@ -23,13 +23,7 @@ jobs:
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
-      - name: Restore dependencies
-        run: dotnet restore
-
-      - name: Build project
-        run: dotnet build --configuration Release --no-restore
-
-      - name: Publish project
+      - name: Build and Publish project
         run: dotnet publish --configuration Release --output "${{ runner.temp }}/site"
 
       - name: Upload artifact for deployment
